@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Tiwari - Resume</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Custom styles */
+        .section-title {
+            border-bottom: 2px solid #4a4a4a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Light and Dark Mode Styles */
+        .dark-mode {
+            background-color: #1a202c; /* Dark background color */
+            color: #e2e8f0; /* Light text color */
+        }
+        .dark-mode .bg-white {
+            background-color: #2d3748; /* Dark card background color */
+        }
+        .dark-mode .text-gray-900 {
+            color: #e2e8f0; /* Light text color */
+        }
+        .dark-mode .text-gray-600 {
+            color: #cbd5e0; /* Light text color */
+        }
+        .dark-mode .text-gray-500 {
+            color: #e2e8f0; /* Light text color */
+        }
+        .dark-mode .section-title {
+            border-bottom: 2px solid #e2e8f0; /* Light border color */
+        }
+
+    .tree-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .tree-list > li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .tree-list > li:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0.5rem;
+        height: 100%;
+        background-color: #4a4a4a;
+    }
+
+    .tree-list > li > ul {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .tree-list > li > ul > li {
+        position: relative;
+        padding-left: 1.5rem;
+    }
+
+    /* .tree-list > li > ul > li:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: #4a4a4a;
+        border-radius: 50%;
+    } */
+
+        .skill-icon {
+            font-size: 2rem; /* Adjust the icon size */
+        }
+        .skill-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .skill-content {
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900" id="body">
+    <div class="container mx-auto p-6 max-w-4xl bg-white shadow-lg rounded-lg mt-10">
+        <header class="flex flex-col items-center text-center mb-8">
+            <h1 class="text-5xl font-bold mb-2">Vivek Tiwari</h1>
+            <p class="text-lg text-gray-600">Software Enthusiast & Part Time Nerd</p>
+            <p class="text-sm text-gray-500">Email: vivektiwari23.10@gmail.com</p>
+        </header>
+
+        <section>
+            <h2 class="text-2xl font-semibold section-title">Professional Summary</h2>
+            <p class="text-gray-700">
+                Passionate Software Developer with over 2 years of experience in building high-quality applications as per requirements. 
+                Adept at working with cross-functional teams and committed to delivering innovative solutions.
+                Seeking to leverage my expertise in Software development to contribute to a dynamic team. This is my publicly available resume if you are looking for someone who can collaborate for your work or someone you want to hire then this resume can help you to navigate my expertise you may need.
+            </p>
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-title">Solo Experience</h2>
+            <ul class="tree-list">
+            <li class="bg-gray-100 p-4">
+                <h3 class="text-xl font-semibold">Freelancer</h3>
+                <p class="text-gray-600">Development & Personal Training (Remote)</p>
+                <p class="text-gray-500"></p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>Software development for various clients from educational institutions, to influencers, to business man.</li>
+                    <li>Personally trained people seeking knowladge on software and computer skills.</li>
+                </ul>
+            </li>
+
+            <li class="bg-gray-100 p-4">
+                <h3 class="text-xl font-semibold">Computer Education Faculty</h3>
+                <p class="text-gray-600">Infotech Computer Education, Redmouse Computers, Raj Computers Academy & Personal Training</p>
+                <p class="text-gray-500">Part Time Role (Mumbai)</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>Assisted faculties in training students.</li>
+                <li>Taught courses offered by the institute with their provided curriculum.</li>
+                </ul>
+            </li>
+
+            <li class="bg-gray-100 p-4">
+                <h3 class="text-xl font-semibold">Event Management Assistance</h3>
+                <p class="text-gray-600">Competitive & Charity Event</p>
+                <p class="text-gray-500">One Time Occurrence (Mumbai)</p>
+                <ul class="list-disc list-inside text-gray-700 mt-2">
+                    <li>Assisted faculties in training students.</li>
+                <li>Taught courses offered by the institute with their provided curriculum.</li>
+                </ul>
+            </li>
+        </ul>
+
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-title">Industry Experience</h2>
+            <ul class="tree-list">
+                <li class="bg-gray-100 p-4">
+                    <h3 class="text-xl font-semibold">Flutter Developer</h3>
+                    <p class="text-gray-600">Millicent Technologies</p>
+                    <p class="text-gray-500">Dec 2022 - Present</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2">
+                        <li>Developed and maintained mobile applications using hybrid application framework Flutter.</li>
+                        <li>Collaborated with seniors, designers and backend developers to create user-friendly interfaces.</li>
+                        <li>Optimized app performance and resolved bugs to ensure high-quality user experience.</li>
+                    </ul>
+                </li>
+
+                <li class="bg-gray-100 p-4">
+                    <h3 class="text-xl font-semibold">Full Stack Developer</h3>
+                    <p class="text-gray-600">SLIT Solutions</p>
+                    <p class="text-gray-500">Oct 2022 - Dec 2022 (Thane)</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2">
+                        <li>Assisted in the development of hybrid mobile applications and features.</li>
+                        <li>Helped troubleshoot and debug issues reported by users.</li>
+                    </ul>
+                </li>
+
+                <li class="bg-gray-100 p-4">
+                    <h3 class="text-xl font-semibold">Developer Intern & Assistant</h3>
+                    <p class="text-gray-600">Various Connections</p>
+                    <p class="text-gray-500">Jul 2021 - Aug 2022  (Hybrid)</p>
+                    <ul class="list-disc list-inside text-gray-700 mt-2">
+                        <li>Assisted in the development of applications and features.</li>
+                        <li>Participated in client-facing issues and technical difficulties to ensure stable client relationships.</li>
+                        <li>Helped troubleshoot and debug issues reported by users.</li>
+                    </ul>
+                </li>
+
+                
+            </ul>
+        </section>
+
+         <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-title">Relevant Skills</h2>
+            <div class="space-y-6">
+                <!-- Primary Skill: Flutter & Dart -->
+                <div class="bg-blue-100 p-4 rounded-lg skill-container">
+                    <div class="skill-content">
+                        <h3 class="text-xl font-semibold text-blue-800">Languages & Frameworks</h3>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                            <li>Programming Languages: Python, Dart, Java, JavaScript, Kotlin, PHP, C++, SQL and GDScript</li>
+                            <li>Design & Markup: HTML, CSS, Tailwind CSS, Bootstrap, Widgets and Design tools available</li>
+                            <li>Frameworks & Tools: Flutter, Django, CodeIgniter, MySQL, SQLite and Foundational React</li>
+                        </ul>
+                    </div>
+                    <i class="fas fa-cogs skill-icon text-blue-800"></i> <!-- Example icon for Flutter -->
+                </div>
+        
+                <!-- Primary Skill: RESTful APIs -->
+                <div class="bg-green-100 p-4 rounded-lg skill-container">
+                    <div class="skill-content">
+                        <h3 class="text-xl font-semibold text-green-800">RESTful APIs</h3>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                            <li>Technologies: PHP, Java & Python</li>
+                            <li>Tools: HTTP Clients like Postman & Thunderclient</li>
+                        </ul>
+                    </div>
+                    <i class="fas fa-plug skill-icon text-green-800"></i> <!-- Example icon for APIs -->
+                </div>
+        
+                <!-- Primary Skill: Git -->
+                <div class="bg-yellow-100 p-4 rounded-lg skill-container">
+                    <div class="skill-content">
+                        <h3 class="text-xl font-semibold text-yellow-800">Version Control</h3>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                            <li>Proficient in Git: managing pull requests and code reviews</li>
+                        </ul>
+                    </div>
+                    <i class="fab fa-git skill-icon text-yellow-800"></i> <!-- Example icon for GitHub -->
+                </div>
+        
+                <!-- Primary Skill: Agile Methodologies -->
+                <div class="bg-red-100 p-4 rounded-lg skill-container">
+                    <div class="skill-content">
+                        <h3 class="text-xl font-semibold text-red-800">Agile Methodologies</h3>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                            <li>Project management from Scrum to Lean Software Development</li>
+                            <li>Participating in sprints and stand-ups</li>
+                            <li>Adapting to iterative development cycles</li>
+                        </ul>
+                    </div>
+                    <i class="fas fa-sync-alt skill-icon text-red-800"></i> <!-- Example icon for Agile -->
+                </div>
+
+                <!-- Primary Skill: Administration Methodologies -->
+                <div class="bg-purple-100 p-4 rounded-lg skill-container">
+                    <div class="skill-content">
+                        <h3 class="text-xl font-semibold text-purple-800">Administration & DevOps</h3>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                            <li>Operating Systems: Windows & Linux</li>
+                            <li>Shell: Bash, zsh and cmd</li>
+                        </ul>
+                    </div>
+                    <i class="fas fa-cloud skill-icon text-purple-800"></i> <!-- Example icon for Agile -->
+                </div>
+
+                
+
+               
+
+            </div>
+        </section>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-title">General Skills</h2>
+            <div class="space-y-6">
+
+            <!-- Primary Skill: Administration Methodologies -->
+            <div class="bg-gray-100 p-4 rounded-lg skill-container">
+                <div class="skill-content">
+                    <h3 class="text-xl font-semibold text-grey-800">Spoken Languages</h3>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                        <li>Hindi</li>
+                        <li>English</li>
+                    </ul>
+                </div>
+                <i class="fas fa-language skill-icon text-grey-800"></i> <!-- Example icon for Agile -->
+            </div>
+
+            <!-- Primary Skill: Administration Methodologies -->
+            <div class="bg-gray-100 p-4 rounded-lg skill-container">
+                <div class="skill-content">
+                    <h3 class="text-xl font-semibold text-grey-800">Soft Skills</h3>
+                    <ul class="list-disc list-inside text-gray-700 mt-2 ml-6">
+                        <li>Friendliness</li>
+                        <li>Adaptibility</li>
+                        <li>Rapport-building</li>
+                        <li>Empathetic listening</li>
+                        <li>Questioning</li>
+                        <li>Creative Thinking</li>
+                    </ul>
+                </div>
+                <i class="fas fa-sign-language skill-icon text-grey-800"></i> <!-- Example icon for Agile -->
+            </div>
+
+        </div>
+        
+        </section>
+
+        <h6 class="text-gray-500"> Things get rusty overtime, however I try to keep up to the best of my abilities <i class="fas fa-smile text-yellow-400"></i></h6>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-title">Education</h2>
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Masters of Science in Computer Science</h3>
+                <p class="text-gray-600">University of Mumbai (IDOL) (Pursuing)</p>
+                <p class="text-gray-500">Graduated: -</p>
+            </div>
+
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold">Bachelor of Science in Information Technology</h3>
+                <p class="text-gray-600">University of Mumbai</p>
+                <p class="text-gray-500">Graduated: 2021</p>
+            </div>
+        </section>
+
+        <footer class="mt-8 text-center text-gray-600">
+            <p>Thank you for considering me. I look forward to discussing how my experiences align with your needs.</p>
+
+            <p>If you reached here then surely say hello because you are awesome! at <b>vivektiwari23.10@gmail.com</b></p>
+
+            Last Updated: 14 Sep 2024;
+        </footer>
+    </div>
+
+
+    
+    <script>
+        // JavaScript to toggle light and dark modes
+        const themeToggleButton = document.getElementById('theme-toggle');
+        const body = document.getElementById('body');
+
+        // Check for saved user preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        if (currentTheme === 'dark') {
+            body.classList.add('dark-mode');
+        }
+
+        themeToggleButton.addEventListener('click', () => {
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+
+</body>
+</html>
