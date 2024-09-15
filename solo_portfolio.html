@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Tiwari - Portfolio</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Custom styles */
+        .section-title {
+            border-bottom: 2px solid #4a4a4a;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Light and Dark Mode Styles */
+        .dark-mode {
+            background-color: #1a202c; /* Dark background color */
+            color: #e2e8f0; /* Light text color */
+        }
+        .dark-mode .bg-white {
+            background-color: #2d3748; /* Dark card background color */
+        }
+        .dark-mode .text-gray-900 {
+            color: #e2e8f0; /* Light text color */
+        }
+        .dark-mode .text-gray-600 {
+            color: #cbd5e0; /* Light text color */
+        }
+        .dark-mode .text-gray-500 {
+            color: #e2e8f0; /* Light text color */
+        }
+        .dark-mode .section-title {
+            border-bottom: 2px solid #e2e8f0; /* Light border color */
+        }
+
+    .tree-list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .tree-list > li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .tree-list > li:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0.5rem;
+        height: 100%;
+        background-color: #4a4a4a;
+    }
+
+    .tree-list > li > ul {
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .tree-list > li > ul > li {
+        position: relative;
+        padding-left: 1.5rem;
+    }
+
+    /* .tree-list > li > ul > li:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0.5rem;
+        height: 0.5rem;
+        background-color: #4a4a4a;
+        border-radius: 50%;
+    } */
+
+        .skill-icon {
+            font-size: 2rem; /* Adjust the icon size */
+        }
+        .skill-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .skill-content {
+            flex: 1;
+        }
+
+
+        /* Optional: Style to center the images and logos */
+        .image-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff;
+            border: 2px dashed #e5e7eb;
+            overflow: hidden;
+            border-radius: 20px;
+            filter: grayscale(100%);
+            transition-duration: 0.3s;
+        }
+        .image-placeholder:hover{
+            filter: grayscale(0%);
+            transform: scale(1.1);
+        }
+        .image-placeholder img {
+            /* object-fit: cover; */
+            width: 100%;
+            /* height: 100%; */
+        }
+
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900" id="body">
+    <div class="container mx-auto p-6 max-w-4xl bg-white shadow-lg rounded-lg mt-10">
+        <header class="flex flex-col items-center text-center mb-8">
+            <h1 class="text-5xl font-bold mb-2">Vivek Tiwari</h1>
+            <p class="text-sm text-gray-600">Email: vivektiwari23.10@gmail.com</p>
+        </header>
+
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4 text-center">Portfolio / Work</h2>
+            <div class="text-center justify-content align-items mt-4 p-3">
+                <img src="assets/web_screenshots/getsetfly_web.png" class="rounded-lg shadow-lg">
+                <br>
+                <div class="text-2xl">GetSetFly Media</div>
+            </div>
+
+            <div class="text-center justify-content align-items mt-4 p-3">
+                <img src="assets/web_screenshots/cooldude_web.png" class="rounded-lg shadow-lg">
+                <br>
+                <div class="text-2xl">CoolDude Fashion</div>
+            </div>
+
+            <div class="text-center justify-content align-items mt-4 p-3">
+                <img src="assets/web_screenshots/yogletics_web.png" class="rounded-lg shadow-lg">
+                <br>
+                <div class="text-2xl">Yogletics</div>
+            </div>
+        </section>
+        
+    
+        <!-- Section with Responsive Grid Layout -->
+        <section class="mt-8">
+        <h2 class="text-2xl font-bold mb-4 text-center">Who I've Had the Pleasure to Work With</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 max-w-4xl mx-auto">
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/get_set_fly_logo.jpg" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7  p-1">
+                <img src="assets/the_watch_store_india.png" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/karm_digital_logo.png" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/cerofi_logo.png" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/skillocial-logo.jpeg" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/yogletics_logo.png" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/cooldude.jpg" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <img src="assets/vr_tech_logo.jpg" alt="client_logo">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <div style="padding: 10px; background-color: black; color:white; margin: 10px;">I</div>
+                <img src="assets/undefined.png" alt="Infotech Computer Education">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <div style="padding: 10px; background-color: black; color:white; margin: 10px;">R</div>
+                <img src="assets/undefined.png" alt="Redmouse.in Computer Education">
+            </div>
+            <div class="image-placeholder h-48 m-7 p-1">
+                <div style="padding: 10px; background-color: black; color:white; margin: 10px;">R</div>
+                <img src="assets/undefined.png" alt="Raj Computers Academy">
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <div class="container mx-auto p-6">
+        <section class="bg-white p-4 rounded-lg text-sm">
+            <h1 class=" font-bold mb-4"></h1>
+            <p class="mb-4">
+                Let me disclaim that the logos displayed on this page belong to their respective owners. These logos are used here for identification and informational purposes only.
+            </p>
+            <p>
+                If you believe that your logo is being used improperly or if you have any concerns, please contact for changes or removal.
+            </p>
+        </section>
+    </div>
+
+
+    </div>
+
+
+    
+    <script>
+        // JavaScript to toggle light and dark modes
+        const themeToggleButton = document.getElementById('theme-toggle');
+        const body = document.getElementById('body');
+
+        // Check for saved user preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        if (currentTheme === 'dark') {
+            body.classList.add('dark-mode');
+        }
+
+        themeToggleButton.addEventListener('click', () => {
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.classList.add('dark-mode');
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+    </script>
+
+</body>
+</html>
