@@ -316,6 +316,9 @@
             <p>If you reached here then surely say hello because you are awesome! at <b>vivektiwari23.10@gmail.com</b></p>
 
             Last Updated: 14 Sep 2024;
+
+            <br>
+            <i id="resume_link"></i>
         </footer>
     </div>
 
@@ -325,6 +328,8 @@
         // JavaScript to toggle light and dark modes
         const themeToggleButton = document.getElementById('theme-toggle');
         const body = document.getElementById('body');
+        document.getElementById("resume_link").innerHTML =
+        "Find this at: <b>" + window.location.href +"</b>";
 
         // Check for saved user preference or default to light mode
         const currentTheme = localStorage.getItem('theme') || 'light';
@@ -341,6 +346,7 @@
                 localStorage.setItem('theme', 'dark');
             }
         });
+
     </script>
 
 </body>
