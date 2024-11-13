@@ -114,22 +114,36 @@
 
     </style>
 </head>
-<body class="bg-yellow-100 text-gray" id="body">
+<body class="bg-blue-100 text-gray" id="body">
     <div class="container mx-auto p-6 max-w-4xl bg-white shadow-lg rounded-lg mt-10">
         <header class="flex flex-col items-center text-center mb-8">
             <h1 class="text-5xl font-bold mb-2">Vivek Tiwari</h1>
             <p class="text-sm text-gray-600">Email: <a href="mailto:vivektiwari23.10@gmail.com" class="link text-purple-800">vivektiwari23.10@gmail.com</a></p>
         </header>
 
+        
+
 
         <section class="mt-8">
             <h2 class="text-2xl font-bold mb-4 text-center">Portfolio / Work</h2>
             <div class="text-center justify-content align-items mt-4 p-3">
                 <img src="assets/web_screenshots/getsetfly_web.png" class="rounded-lg shadow-lg">
-                <div class="tag-overlay text-left m-2">Getsetfly Media is a Digital Brand Building Company. We Leverage the Power of Social Media and Reputed Influencers to help your Brand Go Viral. Our NUMBER 1 Strength is our ability to FOCUS. We ONLY specialize in Influencer Marketing, more specifically on YouTube and that sets us apart from various other agencies, trying to dabble everything in the digital ecosystem.</div>
+                <div class="tag-overlay text-left m-2">Getsetfly Media is a Digital Brand Building Company. We Leverage the Power of Social Media and Reputed Influencers to help your Brand Go Viral. Our NUMBER 1 Strength is our ability to FOCUS. We ONLY specialize in Influencer Marketing, more specifically on YouTube and that sets us apart from various other agencies, trying to dabble everything in the digital ecosystem. <span id="openModal1" style="cursor:pointer;" class="text-gray-500 px-4 py-2 rounded-md"> <i class="fas fa-solid fa-link h-5 w-5"></i> Watch Video Testimonial</span></div>
                 <div class="text-2xl">GetSetFly Media</div>
                 <div class="text-md">(2020)</div>
             </div>
+
+            <div id="modal1" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white rounded-lg p-6 max-w-sm w-full">
+                  <h2 class="text-xl font-semibold">Client Testimonial</h2>
+                  <div class="mt-2" id="client-testimonial-content-1"><video controls="controls" src="assets/video_testimonial/gaurav_video_feedback_english.mp4"></video></div>
+                  <div class="mt-4 flex justify-end">
+                    <button id="closeModal1" class="bg-red-500 text-white px-4 py-2 rounded-md">Close</button>
+                  </div>
+                </div>
+              </div>
+
+            
 
             <div class="text-center justify-content align-items mt-4 p-3">
                 <img src="assets/web_screenshots/watch_store_web.png" class="rounded-lg shadow-lg">
@@ -137,24 +151,54 @@
 
                     Wrist watch is the best option for gift to any one for any occasion There are many reasons why a wrist watch can be a great gift for any occasion.
                     
-                    We Have Experience Of 25 Years And Serving In Mira Bhayandar Since 2017.</div>
+                    We Have Experience Of 25 Years And Serving In Mira Bhayandar Since 2017. <span id="openModal2" style="cursor:pointer;" class="text-gray-500 px-4 py-2 rounded-md"> <i class="fas fa-solid fa-link h-5 w-5"></i> View Client Testimonial</span></div>
                 <div class="text-2xl">The Watch Store India</div>
                 <div class="text-md">(2021)</div>
             </div>
 
+            <div id="modal2" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white rounded-lg p-6 max-w-sm w-full">
+                  <h2 class="text-xl font-semibold">Client Testimonial</h2>
+                  <div class="mt-2" id="client-testimonial-content-2">"Really helpful. The generosity for reiterating the work was good. Thanks."</div>
+                  <div class="mt-4 flex justify-end">
+                    <button id="closeModal2" class="bg-red-500 text-white px-4 py-2 rounded-md">Close</button>
+                  </div>
+                </div>
+              </div>
+
             <div class="text-center justify-content align-items mt-4 p-3">
                 <img src="assets/web_screenshots/karm_digital_web.png" class="rounded-lg shadow-lg">
-                <div class="tag-overlay text-left m-2">We specialize in delivering cutting-edge IT outsourcing solutions that empower businesses to thrive in a rapidly evolving digital landscape. With a commitment to excellence and a focus on innovation, we provide tailored technology services that meet the unique needs of each client.</div>
+                <div class="tag-overlay text-left m-2">We specialize in delivering cutting-edge IT outsourcing solutions that empower businesses to thrive in a rapidly evolving digital landscape. With a commitment to excellence and a focus on innovation, we provide tailored technology services that meet the unique needs of each client. <span id="openModal3" style="cursor:pointer;" class="text-gray-500 px-4 py-2 rounded-md"> <i class="fas fa-solid fa-link h-5 w-5"></i> View Client Testimonial</span></div>
                 <div class="text-2xl">Karm Digital</div>
                 <div class="text-md">(2021)</div>
             </div>
+
+            <div id="modal3" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white rounded-lg p-6 max-w-sm w-full">
+                  <h2 class="text-xl font-semibold">Client Testimonial</h2>
+                  <div class="mt-2" id="client-testimonial-content-3">"Service was fabulous, We did not expect such a quality product from just a single person."</div>
+                  <div class="mt-4 flex justify-end">
+                    <button id="closeModal3" class="bg-red-500 text-white px-4 py-2 rounded-md">Close</button>
+                  </div>
+                </div>
+              </div>
             
             <div class="text-center justify-content align-items mt-4 p-3">
                 <img src="assets/web_screenshots/yogletics_web.png" class="rounded-lg shadow-lg">
-                <div class="tag-overlay text-left m-2">Welcome to Yogletics, where we blend the ancient art of yoga with modern wellness practices to offer you a transformative experience. Led by an experienced and passionate instructor, Yogletics provides personalized yoga classes designed to nurture your body, mind, and spirit.</div>
+                <div class="tag-overlay text-left m-2">Welcome to Yogletics, where we blend the ancient art of yoga with modern wellness practices to offer you a transformative experience. Led by an experienced and passionate instructor, Yogletics provides personalized yoga classes designed to nurture your body, mind, and spirit. <span id="openModal4" style="cursor:pointer;" class="text-gray-500 px-4 py-2 rounded-md"> <i class="fas fa-solid fa-link h-5 w-5"></i> View Client Testimonial</span></div>
                 <div class="text-2xl">Yogletics</div>
                 <div class="text-md">(2022)</div>
             </div>
+
+            <div id="modal4" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white rounded-lg p-6 max-w-sm w-full">
+                  <h2 class="text-xl font-semibold">Client Testimonial</h2>
+                  <div class="mt-2" id="client-testimonial-content-4">"Sweet, simple and reliable as I wanted it to be."</div>
+                  <div class="mt-4 flex justify-end">
+                    <button id="closeModal4" class="bg-red-500 text-white px-4 py-2 rounded-md">Close</button>
+                  </div>
+                </div>
+              </div>
             
             <div class="text-center justify-content align-items mt-4 p-3">
                 <img src="assets/web_screenshots/cooldude_web.png" class="rounded-lg shadow-lg">
@@ -164,10 +208,29 @@
             </div>
 
         </section>
+
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4 text-center">Certificates</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 max-w-4xl mx-auto">
+                <div class="image-placeholder h-48 m-7 p-1">
+                    <img src="assets/certificates/web_design_cert.png" alt="client_logo">
+                </div>
+                <div class="image-placeholder h-48 m-7 p-1">
+                    <img src="assets/certificates/django_cert.jpg" alt="client_logo">
+                </div>
+                <div class="image-placeholder h-48 m-7 p-1">
+                    <img src="assets/certificates/c_sharp_cert.png" alt="client_logo">
+                </div>
+                <div class="image-placeholder h-48 m-7 p-1">
+                    <img src="assets/certificates/flutter_cert.jpg" alt="client_logo">
+                </div>
+            </div>
+        </section>
         
     
         <!-- Section with Responsive Grid Layout -->
-        <section class="mt-8">
+    <section class="mt-8">
         <h2 class="text-2xl font-bold mb-4 text-center">Who I've Had the Pleasure to Work With</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 max-w-4xl mx-auto">
             <div class="image-placeholder h-48 m-7 p-1">
@@ -205,12 +268,16 @@
             </div>
         </div>
     </section>
+
+
+
+    
     
     <br>
 
     <div class="items-center text-center">
         <a href="mailto:vivektiwari23.10@gmail.com" class="bg-purple-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105">
-            CONNECT
+            <i class="fas fa-solid fa-link h-5 w-5"></i> CONNECT
         </a>
     </div>
 
@@ -231,23 +298,112 @@
 
     
     <script>
-        // JavaScript to toggle light and dark modes
-        const themeToggleButton = document.getElementById('theme-toggle');
-        const body = document.getElementById('body');
+        // // JavaScript to toggle light and dark modes
+        // const themeToggleButton = document.getElementById('theme-toggle');
+        // const body = document.getElementById('body');
 
-        // Check for saved user preference or default to light mode
-        const currentTheme = localStorage.getItem('theme') || 'light';
-        if (currentTheme === 'dark') {
-            body.classList.add('dark-mode');
-        }
+        // // Check for saved user preference or default to light mode
+        // const currentTheme = localStorage.getItem('theme') || 'light';
+        // if (currentTheme === 'dark') {
+        //     body.classList.add('dark-mode');
+        // }
 
-        themeToggleButton.addEventListener('click', () => {
-            if (body.classList.contains('dark-mode')) {
-                body.classList.remove('dark-mode');
-                localStorage.setItem('theme', 'light');
-            } else {
-                body.classList.add('dark-mode');
-                localStorage.setItem('theme', 'dark');
+        // themeToggleButton.addEventListener('click', () => {
+        //     if (body.classList.contains('dark-mode')) {
+        //         body.classList.remove('dark-mode');
+        //         localStorage.setItem('theme', 'light');
+        //     } else {
+        //         body.classList.add('dark-mode');
+        //         localStorage.setItem('theme', 'dark');
+        //     }
+        // });
+
+
+
+        const openModalButton = document.getElementById('openModal1');
+        const closeModalButton = document.getElementById('closeModal1');
+        const modal = document.getElementById('modal1');
+
+        // Open the modal
+        openModalButton.addEventListener('click', () => {
+            modal.classList.remove('hidden');
+        });
+
+        // Close the modal
+        closeModalButton.addEventListener('click', () => {
+            modal.classList.add('hidden');
+        });
+
+        // Optionally, close the modal when clicking outside the modal content
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+            modal.classList.add('hidden');
+            }
+        });
+
+
+        const openModalButton2 = document.getElementById('openModal2');
+        const closeModalButton2 = document.getElementById('closeModal2');
+        const modal2 = document.getElementById('modal2');
+
+        // Open the modal
+        openModalButton2.addEventListener('click', () => {
+            modal2.classList.remove('hidden');
+        });
+
+        // Close the modal
+        closeModalButton2.addEventListener('click', () => {
+            modal2.classList.add('hidden');
+        });
+
+        // Optionally, close the modal when clicking outside the modal content
+        modal2.addEventListener('click', (event) => {
+            if (event.target === modal) {
+            modal2.classList.add('hidden');
+            }
+        });
+
+
+
+        const openModalButton3 = document.getElementById('openModal3');
+        const closeModalButton3 = document.getElementById('closeModal3');
+        const modal3 = document.getElementById('modal3');
+
+        // Open the modal
+        openModalButton3.addEventListener('click', () => {
+            modal3.classList.remove('hidden');
+        });
+
+        // Close the modal
+        closeModalButton3.addEventListener('click', () => {
+            modal3.classList.add('hidden');
+        });
+
+        // Optionally, close the modal when clicking outside the modal content
+        modal3.addEventListener('click', (event) => {
+            if (event.target === modal) {
+            modal3.classList.add('hidden');
+            }
+        });
+
+        const openModalButton4 = document.getElementById('openModal4');
+        const closeModalButton4 = document.getElementById('closeModal4');
+        const modal4 = document.getElementById('modal4');
+
+        // Open the modal
+        openModalButton4.addEventListener('click', () => {
+            modal4.classList.remove('hidden');
+        });
+
+        // Close the modal
+        closeModalButton4.addEventListener('click', () => {
+            modal4.classList.add('hidden');
+        });
+
+        // Optionally, close the modal when clicking outside the modal content
+        modal4.addEventListener('click', (event) => {
+            if (event.target === modal) {
+            modal4.classList.add('hidden');
             }
         });
     </script>
